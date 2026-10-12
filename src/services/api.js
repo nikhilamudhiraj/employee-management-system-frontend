@@ -1,6 +1,6 @@
 import { INITIAL_EMPLOYEES } from '../data/mockEmployees';
 
-const BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8080/api';
+const BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://employee-management-system-backend-8jgf.onrender.com/api';
 
 // In-memory fallback state in case backend is offline or starting up
 let fallbackEmployees = [...INITIAL_EMPLOYEES];
