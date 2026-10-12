@@ -1,0 +1,123 @@
+export const INITIAL_EMPLOYEES = [
+  {
+    id: 1,
+    firstName: "Alex",
+    lastName: "Morgan",
+    email: "alex.morgan@worknest.io",
+    phone: "+1 (555) 234-5678",
+    department: "Engineering",
+    designation: "Senior Full-Stack Engineer",
+    salary: 95000,
+    status: "ACTIVE",
+    joiningDate: "2023-01-15",
+    location: "San Francisco, CA",
+    avatarUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80"
+  },
+  {
+    id: 2,
+    firstName: "David",
+    lastName: "Chen",
+    email: "david.chen@worknest.io",
+    phone: "+1 (555) 345-6789",
+    department: "Engineering",
+    designation: "Lead DevOps Engineer",
+    salary: 110000,
+    status: "ACTIVE",
+    joiningDate: "2022-06-01",
+    location: "Austin, TX",
+    avatarUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80"
+  },
+  {
+    id: 3,
+    firstName: "Sophia",
+    lastName: "Rodriguez",
+    email: "sophia.rodriguez@worknest.io",
+    phone: "+1 (555) 456-7890",
+    department: "Human Resources",
+    designation: "HR Business Partner",
+    salary: 72000,
+    status: "ACTIVE",
+    joiningDate: "2023-03-20",
+    location: "New York, NY",
+    avatarUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80"
+  },
+  {
+    id: 4,
+    firstName: "Marcus",
+    lastName: "Johnson",
+    email: "marcus.johnson@worknest.io",
+    phone: "+1 (555) 567-8901",
+    department: "Product",
+    designation: "Principal Product Manager",
+    salary: 115000,
+    status: "ACTIVE",
+    joiningDate: "2022-11-10",
+    location: "Seattle, WA",
+    avatarUrl: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80"
+  },
+  {
+    id: 5,
+    firstName: "Elena",
+    lastName: "Rostova",
+    email: "elena.rostova@worknest.io",
+    phone: "+1 (555) 678-9012",
+    department: "Marketing",
+    designation: "Growth Marketing Director",
+    salary: 88000,
+    status: "ON_LEAVE",
+    joiningDate: "2023-08-05",
+    location: "Chicago, IL",
+    avatarUrl: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80"
+  },
+  {
+    id: 6,
+    firstName: "James",
+    lastName: "Wilson",
+    email: "james.wilson@worknest.io",
+    phone: "+1 (555) 789-0123",
+    department: "Finance",
+    designation: "Financial Controller",
+    salary: 92000,
+    status: "ACTIVE",
+    joiningDate: "2021-09-14",
+    location: "Boston, MA",
+    avatarUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&auto=format&fit=crop&q=80"
+  },
+  {
+    id: 7,
+    firstName: "Priya",
+    lastName: "Patel",
+    email: "priya.patel@worknest.io",
+    phone: "+1 (555) 890-1234",
+    department: "Engineering",
+    designation: "Frontend Specialist",
+    salary: 82000,
+    status: "ACTIVE",
+    joiningDate: "2024-02-01",
+    location: "San Jose, CA",
+    avatarUrl: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80"
+  },
+  {
+    id: 8,
+    firstName: "Lucas",
+    lastName: "Almeida",
+    email: "lucas.almeida@worknest.io",
+    phone: "+1 (555) 901-2345",
+    department: "Operations",
+    designation: "Operations Lead",
+    salary: 78000,
+    status: "INACTIVE",
+    joiningDate: "2022-04-18",
+    location: "Miami, FL",
+    avatarUrl: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=150&auto=format&fit=crop&q=80"
+  }
+];
+
+export const DEPARTMENTS = [
+  "Engineering",
+  "Product",
+  "Marketing",
+  "Finance",
+  "Human Resources",
+  "Operations"
+];
